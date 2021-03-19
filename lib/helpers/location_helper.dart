@@ -33,9 +33,9 @@ class _LocationPreviewState extends State<LocationPreview> {
     super.initState();
   }
 
-  void _gotoDefault() {
-    controller.center = coords;
-  }
+  // void _gotoDefault() {
+  //   controller.center = coords;
+  // }
 
   void _onDoubleTap() {
     controller.zoom += 0.5;
